@@ -54,39 +54,39 @@ storiesOf('Modal', module)
   .add('Default', () =>
     <Modal show={true}>
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Left position', () =>
     <Modal position="left">
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Clean', () =>
     <Modal show={true} contentOnly={true}>
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Title', () =>
     <Modal show={true} title="Confirm this stuff or go away">
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Title and clean', () =>
     <Modal show={true} contentOnly={true} title="Confirm this stuff or go away">
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Footer', () =>
     <Modal show={true} onConfirm={() => {}}>
       {description}<br/><br/>{description}<br/><br/>{description}
-    </Modal>
+    </Modal>,
   )
   .add('Desktop mode', () =>
-    <ContextSliderDesktop/>
+    <ContextSliderDesktop/>,
   )
   .add('Full configured', () =>
-    <ContextSliderFull/>
+    <ContextSliderFull/>,
   )
   .add('Open / close', () =>
-    <ContextSlider/>
+    <ContextSlider/>,
   )

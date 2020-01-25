@@ -8,5 +8,5 @@ storiesOf('Note', module)
   .add('Default', () =>
     <Note>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis urna a diam porttitor feugiat. Proin sed volutpat tortor. Vestibulum mauris neque, varius non accumsan suscipit, elementum vitae est.
-    </Note>
+    </Note>,
   )

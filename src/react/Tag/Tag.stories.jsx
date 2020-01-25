@@ -10,7 +10,7 @@ const ExampleTagColor = props =>
   Object.entries(colors.palette.tones).map(([tone, toneValue]) =>
     <Tag iconClassName={`color-${props.tint}-${tone}`}>
       <code>color-{props.tint}-{tone}</code>
-    </Tag>
+    </Tag>,
   )
 
 ExampleTagColor.propTypes = {
@@ -18,7 +18,7 @@ ExampleTagColor.propTypes = {
 }
 
 const paletteDictionary = Object.entries(colors.palette.colors).map(([tintName, tintValue]) =>
-  <span style={{ display: 'inline-flex', alignItems: 'center', flexDirection: 'column' }}><ExampleTagColor tint={tintName}/></span>
+  <span style={{ display: 'inline-flex', alignItems: 'center', flexDirection: 'column' }}><ExampleTagColor tint={tintName}/></span>,
 )
 
 storiesOf('Tag', module)
@@ -28,5 +28,5 @@ storiesOf('Tag', module)
   .add('Palette dictionary', () =>
     <div className='grid' style={{ textAlign: 'center', gridTemplateColumns: 'repeat(3, 1fr)' }}>
       {paletteDictionary}
-    </div>
+    </div>,
   )

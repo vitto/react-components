@@ -27,5 +27,5 @@ const Wrapper = props => {
 storiesOf('Actions', module)
   .addDecorator(story => <Page>{story()}</Page>)
   .add('Default', () =>
-    <Wrapper/>
+    <Wrapper/>,
   )
