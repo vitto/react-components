@@ -9,6 +9,6 @@ Just for fun, try to learnig [React][react], [Green Sock][gsap], and other stuff
 [Online storybook][storybook-online]
 
 [storybook-local]: http://localhost:51230/
-[storybook-online]: https://ideatosrl.github.io/react-components/
+[storybook-online]: https://vitto.github.io/react-components/
 [react]: https://reactjs.org/
 [gsap]: https://greensock.com/react
