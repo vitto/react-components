@@ -1,5 +1,0 @@
-.DS_Store
-node_modules/
-npm-debug.log
-src/scss/variables/*.scss
-!src/scss/variables/theme.scss
